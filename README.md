@@ -8,11 +8,7 @@ Concepts:
 - The method to request an object is typically parameterized
 - Objects returned by a factory method are often referred to as products.
 - The client knows about common interfaces that the factory exposes
-- Specified by architecture, implemented by user
-Exampes:
--Calendar
--ResourceBundle
--NumberFormat
+
 
 Factory is responsible for creating instances and managing the lifecycle.
 The Factory Method pattern suggests that you replace creating new objects (using the new operator) with calls to a special factory method.
